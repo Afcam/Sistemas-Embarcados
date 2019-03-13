@@ -9,5 +9,6 @@ e um conjunto de periféricos necessários o seu funcionamento.
 ## 3.Apresente aplicações de sistemas embarcados: (a) Para a indústria automotiva; (b) Para eletrodomésticos; (c) Para automação industrial.
 
 ## 4.Cite arquiteturas possíveis e as diferenças entre elas.
+DsPs, FPGAs,ASICs,SoCs, MpSoCs.
 
 ## 5. Por que usamos o Raspberry Pi na disciplina, ao invés de outro system-on-chip?
