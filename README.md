@@ -1,5 +1,3 @@
-# Sistemas-_Embarcados
+# Sistemas-Embarcados
 ***
-Arthur Faria Campos
-
-16/0024242
+Arthur Faria Campos - 16/0024242
