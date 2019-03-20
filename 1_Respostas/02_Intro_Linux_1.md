@@ -28,41 +28,41 @@ Seta Up
   ```
 
   - (c) Apresentar o caminho completo da pasta.
-  ```shell
-  man <comando>
+  ```
+  pwd
   ```
 
   - (d) Trocar de pasta.
-  ```shell
+  ```
   cd
   ```
 
   - (e) Criar uma pasta.
-  ```shell
+  ```
   mkdir <nome_da_pasta>
   ```
   - (f) Apagar arquivos definitivamente.
-  ```shell
-  man <comando>
+  ```
+  rm <arquivo>
   ```
 
   - (g) Apagar pastas definitivamente.
-  ```shell
+  ```
   rm -r <pasta>
   ```
 
   - (h) Copiar arquivos.
-  ```shell
+  ``
   man <comando>
   ```
 
   - (i) Copiar pastas.
-  ```shell
-  man <comando>
+  ```
+    man <comando>
   ```
 
   - (j) Mover arquivos.
-  ```shell
+  ```
   man <comando>
   ```
 
