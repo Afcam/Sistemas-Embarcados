@@ -52,31 +52,57 @@ Seta Up
   ```
 
   - (h) Copiar arquivos.
-  ``
-  man <comando>
+  ```
+  cp <arq1> <arq2>
   ```
 
   - (i) Copiar pastas.
   ```
-    man <comando>
+    cp -r <pasta1>   <pasta2>
   ```
 
   - (j) Mover arquivos.
   ```
-  man <comando>
+  mv <file1> <file2>
   ```
 
   - (k) Mover pastas.
-  ```shell
-  man <comando>
+  ```
+  mv <file1> <file2>
   ```
   - (l) Renomear pastas.
+  ```
+  mv <FILE> <New-name>
+  ```
 
   - (m) Apresentar o conteúdo de um arquivo.
+  ```
+  cat <file>
+  less <file>
+  ```
   - (n) Apresentar o tipo de um arquivo.
   - (o) Limpar a tela do terminal.
+  ```
+  clear
+  Crtl + L
+  ```
   - (p) Encontrar ocorrências de palavras-chave em um arquivo-texto.
+  ```
+  grep <palavra> <arquivo>
+  ```
   - (q) Ordenar informações em um arquivo-texto.
+  ```
+  sort <file>
+  ```
   - (r) Substituir ocorrências de palavras-chave em um arquivo-texto.
+  ```
+  sed -e 's/Amaral/Julia/g' nomes.txt
+  ```
   - (s) Conferir se dois arquivos são iguais.
+  ```
+  diff <lista1> <lista2>
+  ```
   - (t) Escrever algo na tela.
+  ```
+  print <texto>
+  ```
