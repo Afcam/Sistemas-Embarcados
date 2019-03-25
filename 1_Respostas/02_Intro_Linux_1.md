@@ -18,76 +18,76 @@ Seta Up
 
 ## 7. Apresente os respectivos comandos no terminal para:
   - (a) Obter mais informações sobre um comando.
-  ```shell
+  ```bash
   man <comando>
   ```
 
   - (b) Apresentar uma lista com os arquivos dentro de uma pasta.
-  ```shell
+  ```bash
   ls
   ```
 
   - (c) Apresentar o caminho completo da pasta.
-  ```
+  ```bash
   pwd
   ```
 
   - (d) Trocar de pasta.
-  ```
+  ```bash
   cd
   ```
 
   - (e) Criar uma pasta.
-  ```
+  ```bash
   mkdir <nome_da_pasta>
   ```
   - (f) Apagar arquivos definitivamente.
-  ```
+  ```bash
   rm <arquivo>
   ```
 
   - (g) Apagar pastas definitivamente.
-  ```
+  ```bash
   rm -r <pasta>
   ```
 
   - (h) Copiar arquivos.
-  ```
+  ```bash
   cp <arq1> <arq2>
   ```
 
   - (i) Copiar pastas.
-  ```
+  ```bash
     cp -r <pasta1>   <pasta2>
   ```
 
   - (j) Mover arquivos.
-  ```
+  ```bash
   mv <file1> <file2>
   ```
 
   - (k) Mover pastas.
-  ```
+  ```bash
   mv <file1> <file2>
   ```
   - (l) Renomear pastas.
-  ```
+  ```bash
   mv <FILE> <New-name>
   ```
 
   - (m) Apresentar o conteúdo de um arquivo.
-  ```
+  ```bash
   cat <file>
   less <file>
   ```
   - (n) Apresentar o tipo de um arquivo.
   - (o) Limpar a tela do terminal.
-  ```
+  ```bash
   clear
   Crtl + L
   ```
   - (p) Encontrar ocorrências de palavras-chave em um arquivo-texto.
-  ```
+  ```bash
   grep <palavra> <arquivo>
   ```
   - (q) Ordenar informações em um arquivo-texto.
@@ -95,14 +95,14 @@ Seta Up
   sort <file>
   ```
   - (r) Substituir ocorrências de palavras-chave em um arquivo-texto.
-  ```
+  ```bash
   sed -e 's/Amaral/Julia/g' nomes.txt
   ```
   - (s) Conferir se dois arquivos são iguais.
-  ```
+  ```bash
   diff <lista1> <lista2>
   ```
   - (t) Escrever algo na tela.
-  ```
+  ```bash
   print <texto>
   ```
