@@ -1,2 +1,0 @@
-Nome: arthur.txt
- Idade: 10 anos
