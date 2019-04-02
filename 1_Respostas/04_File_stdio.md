@@ -1,5 +1,5 @@
 ##  Para todas as questões, utilize as funções da biblioteca `stdio.h` de leitura e de escrita em arquivo (`fopen()`, `fclose()`, `fwrite()`, `fread()`, dentre outras). Compile os códigos com o gcc e execute-os via terminal.
-
+---
 ## 1. Crie um código em C para escrever "Ola mundo!" em um arquivo chamado 'ola_mundo.txt'.
 
 ```C
@@ -212,52 +212,31 @@ $ Ola mundo cruel! Ola universo ingrato!
 ```
 
 ## 7. Crie um código em C que conta a ocorrência de uma palavra-chave em um arquivo-texto, e escreve o resultado no terminal. Reaproveite as funções já criadas nas questões anteriores. Por exemplo, considerando que o código criado recebeu o nome de 'busca_e_conta':
+
 ```c
-// bib_arqs.h
-int tam_arq_texto(char *nome_arquivo);
-char* le_arq_texto(char *nome_arquivo);
-char* cat_falsificado(char *nome_arquivo);
-```
-```c
-// bib_arqs.c
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "bib_arqs.h"
+#include "bis_arqs.h"
 
-int tam_arq_texto(char *nome_arquivo)
-{
-   FILE *fp = fopen(nome_arquivo,"a");
-   if(!fp)
-     printf("Erro ao abrir o arquivo");
-   else
-      return ftell(fp);
-}
+int main(int argc, char const *argv[]) {
 
-char* le_arq_texto(char *nome_arquivo)
-{
-     FILE *fp = fopen(nome_arquivo, "a");
-     if(!fp)
-      printf("Erro ao abrir o arquivo");
-     else
-     {
-        long fsize = ftell(fp);
-        rewind(fp);
+  int tamanho = tam_arq_texto((char *) argv[2]);
+  int palavra_chave = 0;
+  char *texto;
 
-        char *string = (*char)malloc(fsize + 1);
-        fread(string, fsize, 1, fp);
-     }
+  texto = malloc(sizeof(char) * tamanho);
 
-     fclose(fp);
-     free(string);
-     return string;
-}
+  for (int i = 0; i <= tamanho-strlen(argv[1]); i+=sizeof(char)) {
+    if (!strncmp(argv[1], texto + i, strlen(argv[1]))) {
+      palavra_chave++;
+    }
+  }
 
-char* cat_falsificado(char *nome_arquivo)
-{
-   char *string = le_arq_texto(nome_arquivo);
-   print("%s",string);
+  printf("'%s' ocorre %d vezes no arquivo '%s'\n", argv[1], palavra_chave, argv[2]);
 
+  free(texto);
+  return 0;
 }
 ```
 ```bash

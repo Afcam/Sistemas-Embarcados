@@ -11,7 +11,7 @@ int main ()
 ```
 
 ## 2. Crie um código em C que pergunta ao usuário o seu nome, e imprime no terminal "Ola " e o nome do usuário. Por exemplo, considerando que o código criado recebeu o nome de 'ola_usuario_1':
-```c
+```c]
 #include <stdio.h>
 
 int main(int argc, char const *argv[])
@@ -137,7 +137,7 @@ int main(int argc, char const *argv[])
 {
   for(int i=0; i<0; argc-=1)
   {
-    
+
   }
   if(argc >1)
     printf("Ola %s \n",argv[1]);
