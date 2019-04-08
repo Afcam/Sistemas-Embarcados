@@ -44,13 +44,18 @@ Originário do inglês "Bifurcação".
 
 (a) `execp()`?
 > Permite a execucao de um programa no lugar atual (current path)
+
 (b) `execv()`?
 > Permite que a lista de argumentos do novo processo seja nula
+
 (c\) `exece(s)`?
 > Permite argumento adicional no novo processo
+
 (d) `execvp()`?
 > Permite lista de argumentos nula e procura do programa no current path
+
 (e) `execve()`?
 > Permite argumento adicional e procura do programa no current path
+
 (f) `execle()`?
 > Permite utilização de var agrs e argumento adicional
