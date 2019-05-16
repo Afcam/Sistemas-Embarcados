@@ -1,15 +1,26 @@
 ## 1. Especifique algumas portas importantes pré-definidas para o protocolo TCP/IP.
 Porta : Protocolo
+
 21	FTP
+
 23	Telnet
+
 25	SMTP
+
 53	Domain Name (Nome do domínio do Sistema)
+
 63	Whois
+
 70	Gopher
+
 79	Finger
+
 80	HTTP
+
 110	POP3
+
 119	NNTP
+
 
 ## 2. Com relação a endereços IP, responda:
 
@@ -32,17 +43,28 @@ Porta : Protocolo
 
 
 #### (d) O que é o DNS? Para que ele serve?
+> O servidor de nomes de domínio (DNS) transforma o nome atribuído do site ao IP do site.
+
 
 ## 3. Com relação à pilha de protocolos TCP/IP, responda:
 
 #### (a) O que são suas camadas? Para que servem?
+> O conjunto de protocolos pode ser visto como um modelo de camadas (Modelo OSI), onde cada camada é responsável por um grupo de tarefas, fornecendo um conjunto de serviços bem definidos para o protocolo da camada superior.
+	
 
 #### (b) Quais são as camadas existentes? Para que servem?
-
+> São 4 camadas: Aplicação (contem todos os protocolos para um serviço específico de comunicação de dados em um nível de processo-a-processo), Transporte (Essa parte controla a comunicação host-a-host.), Internet (Essa parte é responsável pelas conexões entre as redes locais), Rede (Essa é a parte conhecida como física).
+	
 #### (c) Quais camadas são utilizadas pela biblioteca de sockets?
+> A camada Aplicação.
+	
 
 #### (d) As portas usadas por servidores na função bind() se referem a qual camada?
+> A camada Aplicação.
+	
 
 #### (e) Os endereços usados por clientes na função connect() se referem a qual camada?
 
 ## 4. Qual é a diferença entre os métodos `GET` e `POST` no protocolo HTTP?
+> O Get busca algo na rede e post colocar algo na rede.
+
