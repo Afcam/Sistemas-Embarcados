@@ -1,7 +1,7 @@
 ## 1. Com relação ao modelo cliente-servidor, responda:
 (a) Quais são as características básicas deste modelo?
 
-O modelo cliente-servidor (em inglês client/server model), em computação, é uma estrutura de aplicação distribuída 
+> O modelo cliente-servidor (em inglês client/server model), em computação, é uma estrutura de aplicação distribuída 
 que distribui as tarefas e cargas de trabalho entre os fornecedores de um recurso ou serviço, designados como servidores, 
 e os requerentes dos serviços, designados como clientes.
 
@@ -27,7 +27,7 @@ possibilita a comunicação com o servidor;
 ## 2.  Com relação ao protocolo de comunicação da internet, responda:
 (a) O que são protocolos de comunicação?
 
-Na ciência da computação, um protocolo é uma convenção que controla e possibilita uma conexão, comunicação,
+> Na ciência da computação, um protocolo é uma convenção que controla e possibilita uma conexão, comunicação,
 transferência de dados entre dois sistemas computacionais.
 
 (b) Quais são as características básicas de protocolos de comunicação?
@@ -44,11 +44,11 @@ transferência de dados entre dois sistemas computacionais.
 ## 3. Com relação ao protocolo TCP, responda:
 (a) O que são portas no protocolo TCP?
 
-O TCP introduz o conceito de porta tipicamente associado a um serviço (camada aplicação)/ligação específica. Assim cada um dos intervenientes na conexão dispõe de uma porta associada (um valor de 16 bit) que dificilmente será o mesmo do interlocutor. 
+> O TCP introduz o conceito de porta tipicamente associado a um serviço (camada aplicação)/ligação específica. Assim cada um dos intervenientes na conexão dispõe de uma porta associada (um valor de 16 bit) que dificilmente será o mesmo do interlocutor. 
 
 (b) Para que servem estas portas?
 
-A gama de portas privadas segue regras de atribuição específicas do sistema operativo e serve para abrir ligações a outras máquinas, como surfar na rede, por exemplo.
+> A gama de portas privadas segue regras de atribuição específicas do sistema operativo e serve para abrir ligações a outras máquinas, como surfar na rede, por exemplo.
 
 
 
